@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#titulo-menu-superior{
+    padding-top: 10px;
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: 61px;
+    padding-top: 217px;
+}
+
+#texto-menu-superior{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 61px;
+    padding-top: 34px;
+    padding-bottom: 151px;
+}
+
+#menu-superior{
+    background-color: #303030;
+}
+
+#dados{
+    background-color: #F9F9F9;
+    display: grid;
+    padding-left: 168px;
+    padding-top: 100px;
+    padding-bottom: 76px;
+    color: black;
+}
+
+#item1{
+    grid-column: 1; 
+    grid-row: 1;
+    font-size: 40px;
+    font-weight: bold;
+}
+#item2{
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 20px;
+}
+#item3{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 40px;
+    font-weight: bold;
+}
+#item4{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 20px;
+    }
+#item5{
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 40px;
+    font-weight: bold;
+}
+#item6{
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 20px;
+}
+
+#historia{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: white;
+}
+
+#foto{
+    margin-left:50px;
+    margin-top: 82px;
+    padding-bottom: 94px;
+}
+
+#texto{
+    margin-left: 77px;
+}
+
+#historia-titulo{
+    margin-top: 262px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#historia-conteudo{    
+    margin-top: 54px;
+    font-size: 20px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+
+#titulo-formulario{
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 68px;
+    color:white;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    background-color: white;
+    margin: 25px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #000000;
+}
+
+button{
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #C07212;
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0px 15px 20px black;
+}   
